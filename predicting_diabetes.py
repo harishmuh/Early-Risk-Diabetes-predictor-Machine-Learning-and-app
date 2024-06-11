@@ -48,7 +48,7 @@ st.write("""
         """)
 
 # Diabetes Illustration
-image = Image.open("diabetes_mainbanner.png")
+image = Image.open("diabetes_mainbanner.PNG")
 st.image(image, caption="Diabetes Illustration", width=700)
 
 # Other illustrations

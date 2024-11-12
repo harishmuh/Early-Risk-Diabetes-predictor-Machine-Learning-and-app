@@ -21,3 +21,6 @@ Why an Early Diabetes Predictor App? Early detection of diabetes can significant
 * Health Monitoring: Incorporate regular health check-ups and symptom tracking to identify potential risks early.
 * Further Research: Explore additional data sources and refine models to enhance prediction accuracy.
 * User Education: Educate users about the importance of early detection and the symptoms of diabetes.
+
+## Assets
+* [Diabetes risk WebApps](https://early-risk-diabetes-predictor.streamlit.app/) via streamlit (Please, Feel free to check)

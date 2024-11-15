@@ -11,11 +11,11 @@ What is Diabetes? Diabetes is a chronic disease that affects how your body turns
 Why an Early Diabetes Predictor App? Early detection of diabetes can significantly improve the quality of life and reduce the risk of severe complications. Traditional methods for diagnosing diabetes often involve lab tests, which can be expensive and inconvenient. An app that predicts the risk of diabetes based on readily available symptoms can serve as an initial screening tool, providing an early warning and encouraging people to seek medical advice promptly.
 
 ## Conclusion
- we selected the tuned Random Forest as the best model due to its balanced performance without significantly compromising other parameters. The model has high recall score on the test data by 98.9% with relatively smaller False Negative and Small False Positive.
+ we selected the tuned Random Forest as the best model due to its balanced performance without significantly compromising other parameters. The model has a high recall score on the test data by 98.9% with relatively smaller False Negative and Small False Positive.
 
  ## Insights
 * Model Performance: The Random Forest model provided a reliable and balanced performance, making it a suitable choice for deployment.
-* Feature Importance: Symptoms such as polyuria and polydipsia, are strong indicators of diabetes risk according to model.
+* Feature Importance: Based on the model, symptoms such as polyuria (Abnormally large amount of urine production) and polydipsia (excessive thirst, commonly a response to dehydration or high blood sugar), are strong indicators of early diabetes risks.
 
 ## Recommendations
 * Health Monitoring: Incorporate regular health check-ups and symptom tracking to identify potential risks early.
@@ -23,4 +23,4 @@ Why an Early Diabetes Predictor App? Early detection of diabetes can significant
 * User Education: Educate users about the importance of early detection and the symptoms of diabetes.
 
 ## Assets
-* [Diabetes risk WebApps](https://early-risk-diabetes-predictor.streamlit.app/) via streamlit (Please, Feel free to check)
+* [Diabetes risk WebApps](https://early-risk-diabetes-predictor.streamlit.app/) via streamlit (Please, Feel free to check ^_^)

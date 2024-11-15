@@ -1,6 +1,6 @@
-![Diabetes](https://github.com/harishmuh/Early-Risk-Diabetes-predictor-Machine-Learning-and-app/blob/main/slide/diabetes_risk_predictor.PNG)
-
 # Early Risk Diabetes Predictor Machine Learning and App
+
+![Diabetes](https://github.com/harishmuh/Early-Risk-Diabetes-predictor-Machine-Learning-and-app/blob/main/slide/diabetes_risk_predictor.PNG)
 
 ## Context
 
@@ -51,6 +51,7 @@ The idea for creating this app originated from the availability of a comprehensi
 
 
 **Random Forest as The Selected Model for Machine Learning App**
+
 While XGBoost achieved a perfect recall, it came at the cost of a higher false positive rate. This could lead to more individuals without diabetes being flagged, causing unnecessary concern and potential overuse of medical resources. Random Forest, on the other hand, provided a balanced performance with high recall and a lower false positive rate. Thus, Random Forest is the preferred model due to its reliable and balanced performance.
 
 **Learning curve**
@@ -58,14 +59,17 @@ While XGBoost achieved a perfect recall, it came at the cost of a higher false p
 
 
 **Feature importance**
+
 ![Feature importance](https://github.com/harishmuh/Early-Risk-Diabetes-predictor-Machine-Learning-and-app/blob/main/slide/feature%20importance.PNG)
 
 * Based on the model, symptoms such as polyuria (Abnormally large amount of urine production) and polydipsia (excessive thirst, commonly a response to dehydration or high blood sugar), are strong indicators of early diabetes risks.
 
 **Model explanation using LIME for a patient who was diagnosed as positive**
+
 ![LIME positive](https://github.com/harishmuh/Early-Risk-Diabetes-predictor-Machine-Learning-and-app/blob/main/slide/Lime%20positive%20diabetes.PNG)
 
 **Model explanation using LIME for patient who was diagnosed as negative**
+
 ![LIME Negative](https://github.com/harishmuh/Early-Risk-Diabetes-predictor-Machine-Learning-and-app/blob/main/slide/Lime%20Negative%20diabetes.PNG)
 
 ## Conclusion

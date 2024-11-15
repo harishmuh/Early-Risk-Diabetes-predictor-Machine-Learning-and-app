@@ -44,7 +44,10 @@ The idea for creating this app originated from the availability of a comprehensi
 
 
 **Confusion matrix of Random Forest and XGBoost**
+
 ![Confusion matrix both](https://github.com/harishmuh/Early-Risk-Diabetes-predictor-Machine-Learning-and-app/blob/main/slide/confusion_matrix_both_rf_xgb.PNG)
+
+**Insights of model performance after tunning and confusion matrix**
 
 * XGBoost achieved a perfect recall score, indicating it correctly identified all positive cases in the test set. However, it had a higher false positive rate, misclassifying 24 negative cases as positive.
 * Random Forest achieved nearly perfect recall with only one false negative while maintaining a lower false positive rate compared to XGBoost.

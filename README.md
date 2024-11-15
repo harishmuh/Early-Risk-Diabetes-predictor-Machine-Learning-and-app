@@ -8,14 +8,21 @@ What is Diabetes? Diabetes is a chronic disease that affects how your body turns
 
 ## Problem Statement
 
-Why an Early Diabetes Predictor App? Early detection of diabetes can significantly improve the quality of life and reduce the risk of severe complications. Traditional methods for diagnosing diabetes often involve lab tests, which can be expensive and inconvenient. An app that predicts the risk of diabetes based on readily available symptoms can serve as an initial screening tool, providing an early warning and encouraging people to seek medical advice promptly.
+**Why an Early Diabetes Predictor App?** 
+Early detection of diabetes can significantly improve the quality of life and reduce the risk of severe complications. Traditional methods for diagnosing diabetes often involve lab tests, which can be expensive and inconvenient. An app that predicts the risk of diabetes based on readily available symptoms can serve as an initial screening tool, providing an early warning and encouraging people to seek medical advice promptly.
 
-## Conclusion
- we selected the tuned Random Forest as the best model due to its balanced performance without significantly compromising other parameters. The model has a high recall score on the test data by 98.9% with relatively smaller False Negative and Small False Positive.
+**Dataset source**
+The idea for creating this app originated from the availability of a comprehensive dataset from the UCI Machine Learning Repository: the Early Stage Diabetes Risk Prediction Dataset. This dataset includes information collected through questionnaires from patients at the Sylhet Diabetes Hospital in Sylhet, Bangladesh, and it has been approved by medical professionals.
+
+**The dataset comprises 16 features, including 1 numerical and 15 categorical features**
+![Dataset feature](https://github.com/harishmuh/Early-Risk-Diabetes-predictor-Machine-Learning-and-app/blob/main/slide/variable_name.PNG)
 
  ## Insights
 * Model Performance: The Random Forest model provided a reliable and balanced performance, making it a suitable choice for deployment.
 * Feature Importance: Based on the model, symptoms such as polyuria (Abnormally large amount of urine production) and polydipsia (excessive thirst, commonly a response to dehydration or high blood sugar), are strong indicators of early diabetes risks.
+
+## Conclusion
+ we selected the tuned Random Forest as the best model due to its balanced performance without significantly compromising other parameters. The model has a high recall score on the test data by 98.9% with relatively smaller False Negative and Small False Positive.
 
 ## Recommendations
 * Health Monitoring: Incorporate regular health check-ups and symptom tracking to identify potential risks early.
@@ -24,3 +31,4 @@ Why an Early Diabetes Predictor App? Early detection of diabetes can significant
 
 ## Assets
 * [Diabetes risk WebApps](https://early-risk-diabetes-predictor.streamlit.app/) via streamlit (Please, Feel free to check ^_^)
+* [Presentation (PDF)](https://github.com/harishmuh/Early-Risk-Diabetes-predictor-Machine-Learning-and-app/blob/main/slide/Developing%20Early%20Diabetes%20Risk%20predictor.pdf)

@@ -16,7 +16,7 @@ Early detection of diabetes can significantly improve the quality of life and re
 
 **Dataset source**
 
-The idea for creating this app originated from the availability of a comprehensive dataset from the UCI Machine Learning Repository: the Early Stage Diabetes Risk Prediction Dataset. This dataset includes information collected through questionnaires from patients at the Sylhet Diabetes Hospital in Sylhet, Bangladesh, and it has been approved by medical professionals.
+The idea for creating this app originated from the availability of a comprehensive [dataset](https://archive.ics.uci.edu/dataset/529/early+stage+diabetes+risk+prediction+dataset) from the UCI Machine Learning Repository: the Early Stage Diabetes Risk Prediction Dataset. This dataset includes information collected through questionnaires from patients at the Sylhet Diabetes Hospital in Sylhet, Bangladesh, and it has been approved by medical professionals.
 
 **The dataset comprises 16 features, including 1 numerical and 15 categorical features**
 ![Dataset feature](https://github.com/harishmuh/Early-Risk-Diabetes-predictor-Machine-Learning-and-app/blob/main/slide/variable_name.PNG)

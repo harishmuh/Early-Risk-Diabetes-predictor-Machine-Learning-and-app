@@ -87,3 +87,4 @@ we selected the tuned Random Forest as the best model due to its balanced perfor
 * [Diabetes risk WebApps](https://early-risk-diabetes-predictor.streamlit.app/) via streamlit (Please, Feel free to check ^_^)
 * [My article](https://medium.com/@harishmuh/developing-an-early-diabetes-risk-predictor-app-using-machine-learning-39e246fb337d)
 * [Presentation (PDF)](https://github.com/harishmuh/Early-Risk-Diabetes-predictor-Machine-Learning-and-app/blob/main/slide/Developing%20Early%20Diabetes%20Risk%20predictor.pdf)
+* [Notebook (analysis)](https://github.com/harishmuh/Early-Risk-Diabetes-predictor-Machine-Learning-and-app/blob/main/diabetes_early_risk_prediction.ipynb)
